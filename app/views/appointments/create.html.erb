@@ -1,0 +1,11 @@
+<h1>Appointments#create</h1>
+<p>Find me in app/views/appointments/create.html.erb</p>
+
+<%= form_for @appointment do |f| %>
+<label>Appointment Date</label>
+<br>
+<%= f.text_field :appointment_date %>
+
+<%= f.submit %>
+
+<% end %>
