@@ -5,6 +5,7 @@
 <ul>
   <li>
 <%= appointment.appointment_date %>
+<%= link_to("Delete", appointment_path(appointment.id), :method => :delete) %>
   </li>
 </ul>
 <% end %>
